@@ -19,6 +19,7 @@ Windows users:
 
 Core requests usage:
 
+```js
     var x11 = require('x11');
 
     var Exposure = x11.eventMask.Exposure;
@@ -51,6 +52,7 @@ Core requests usage:
 		    console.log(err);
         }
     });
+```
 
 # Screenshots
 
@@ -69,6 +71,8 @@ Core requests usage:
   - [Dbusmenu](https://github.com/sidorares/node-dbusmenu) - unity global menu client.
   - [AirWM](https://github.com/AirWM/AirWM) - tiling window manager
   - [npdf](https://github.com/sidorares/npdf) - pdf viewer
+  - [tinywm](https://github.com/Airblader/node-tinywm) The famous [TinyWM](https://github.com/mackstann/tinywm) written in node.js
+  - [basedwm](https://github.com/anko/basedwm) Infinite-desktop panning X window manager in LiveScript
 
 # Protocol documentation
 
